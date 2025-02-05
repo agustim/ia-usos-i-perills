@@ -7,17 +7,36 @@ theme: gaia
 ---
 # Introducció - La IA com a Aliat Social
 
-- **Definició bàsica de IA:**  
-  Explicació senzilla del concepte i la seva evolució.
-- **Contribució als projectes socials:**  
-  Com la IA pot millorar processos interns, facilitar la comunicació i optimitzar la presa de decisions.
-- **Context de la causa catalana:**  
-  La importància de la tecnologia com a eina per reforçar la defensa de valors i la transparència.
+- **Què és la Intel·ligència Artificial?**  
 
+- **Beneficis de la IA en el Tercer Sector i Projectes Socials**  
+  - Optimització de processos interns
+  - Facilitació de la comunicació
+  - Suport a la presa de decisions
+  - Accessibilitat
+
+- **Context de la causa catalana:**
+  - Difusió de la llengua
+  - Lluita contra la desinformació
+  - Seguretat digital
+
+
+<!--
 **Notes:**  
-- Il·lustra amb exemples concrets d’aplicacions en entitats similars.  
-- Reforça la idea que la tecnologia és una eina que s'ha d'utilitzar dins d'un marc ètic i segur.
+- La Intel·ligència Artificial (IA) es refereix a sistemes informàtics capaços d'executar tasques que normalment requereixen intel·ligència humana, com ara el reconeixement de patrons, la presa de decisions o la generació de llenguatge. Des de les seves primeres investigacions als anys 50 fins als models actuals basats en xarxes neuronals, la IA ha evolucionat per convertir-se en una eina fonamental en múltiples sectors.
+- Beneficis de la IA en el Tercer Sector i Projectes Socials
+  - Optimització de processos interns: Automatització de tasques administratives com la gestió de bases de dades o el seguiment de projectes.
+  - Facilitació de la comunicació: Creació de resums automàtics, assistència en la redacció de materials de sensibilització o gestió de xarxes socials.
+  - Suport a la presa de decisions: Anàlisi de dades per a millorar estratègies de captació de fons o l’impacte de campanyes socials.
+  - Accessibilitat: Aplicacions que milloren l’accés a la informació per a persones amb discapacitat visual o auditiva.
 
+- Context de la causa catalana i la tecnologia com a eina estratègica
+La IA pot jugar un paper clau en la defensa de drets socials i la promoció de la llengua i cultura catalana:
+
+  - Preservació i difusió de la llengua: Sistemes de traducció automàtica i correcció en català.
+  - Lluita contra la desinformació: Anàlisi de notícies falses i identificació d'informació manipulada.
+  - Seguretat digital: Eines de protecció de dades i comunicació xifrada per garantir la privacitat de les entitats.
+-->
 ---
 # Fonaments de la IA - Conceptes i Aplicacions
 
