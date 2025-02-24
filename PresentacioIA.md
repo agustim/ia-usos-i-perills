@@ -1,11 +1,17 @@
 ---
 marp: true
-title: IA Usos i Perills - Exploració i indicacions de la IA
+title: IA Usos i perills en una entiat de causa.
 author: Agusti Moll
 paginate: true
 theme: gaia
 ---
-# Introducció - La IA com a Aliat Social
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+# La IA com a Aliat Social?
 
 - **Què és la Intel·ligència Artificial?**  
 
@@ -38,33 +44,89 @@ La IA pot jugar un paper clau en la defensa de drets socials i la promoció de l
   - Seguretat digital: Eines de protecció de dades i comunicació xifrada per garantir la privacitat de les entitats.
 -->
 ---
-# Fonaments de la IA - Conceptes i Aplicacions
+# 🔍 Conceptes
 
-- **Què és la IA, l'aprenentatge automàtic i el deep learning:**  
-  Diferències entre aquests conceptes amb exemples visuals o esquemes.
-- **Aplicacions pràctiques en l’entitat:**  
-  - Automatització de tasques administratives: gestió de dades i organització d'informació.  
-  - Suport en la creació de continguts: assistents per a redactar comunicats o gestionar xarxes socials.
+**Què és la IA, l'aprenentatge automàtic i el deep learning**  
+  
+**🚀 Aplicacions pràctiques en l’entitat:**  
+  - Automatització de tasques administratives
+  - Suport en la creació de continguts
 
+<!--   
 **Notes:**  
-- Utilitza gràfics que mostrin el funcionament bàsic d'un algoritme.  
-- Comparteix exemples d'altres entitats o projectes socials que han implementat la IA amb èxit.
+Concepte:
+Cercles concentrics.
+
+**Intel·ligència Artificial (IA)*: Fa referència a sistemes informàtics que poden realitzar tasques que normalment requereixen intel·ligència humana, com ara la presa de decisions, el reconeixement d'imatges o el processament del llenguatge.
+
+**Aprenentatge automàtic (Machine Learning - ML)**: És una subcategoria de la IA on els sistemes aprenen patrons a partir de dades i fan prediccions sense ser explícitament programats. Un exemple pràctic podria ser un sistema que categoritza correus electrònics com a "importants" o "brossa" en funció dels missatges que l’usuari obre més sovint.
+
+**Deep Learning**: És una branca de l’aprenentatge automàtic que utilitza xarxes neuronals artificials per processar grans volums de dades. Per exemple, el reconeixement facial en xarxes socials o la traducció automàtica en temps real.
+
+Aplicacions pràctiques en una entitat de causa
+Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitzar recursos en diferents àmbits:
+
+**Automatització de tasques administratives**
+
+- Eines d’IA poden ajudar a organitzar grans volums de dades sobre socis, donacions o projectes.
+- Exemples: Sistemes que classifiquen documents automàticament o generen resums d'informes.
+**Suport en la creació de continguts**
+
+- Assistents d’IA poden suggerir textos per comunicats de premsa, publicacions a xarxes socials o butlletins informatius.
+- Exemples: IA que analitza el sentiment de comentaris a xarxes socials per ajustar el to de la comunicació.
+
+-->
+---
+
+# 🛠 Eines d'IA per a l'Entitat
+
+  - Plataformes conversacionals: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai/), [Deepseek](https://chat.deepseek.com/) poden ajudar en la redacció de textos, resum de documents i suport en la presa de decisions.
+  - Reconeixament de veu i imatge: [Whisper](https://github.com/openai/whisper) permet transcriure àudio a text amb gran precisió, [Otter.ia](https://otter.ai/) facilita la transcripció i resum de reunions. 
+  - Generació de continguts multimèdia: [Canva amb IA](https://www.canva.com/es_es/generador-imagenes-ia/) crear dissenys automàticament, [Descript](https://web.descript.com/) facilita l'edició de vídeo i àudio amb IA. 
 
 ---
 
-# Eines i Recursos d'IA per a l'Entitat
-
-- **Eines accessibles:**  
-  - Plataformes com ChatGPT per atenció al client o creació de continguts.  
-  - Aplicacions de reconeixement de veu o imatge per automatitzar processos interns.
+# 🧰 Recursos d'IA per a l'Entitat
+- **Recursos formatius:**
+  Cursals, webinars i manuals per a la formació contínua, amb especial atenció a recursos en català.
 - **Entorns de desenvolupament:**  
   Introducció a Python, biblioteques com TensorFlow o PyTorch i plataformes com Google Colab.
-- **Recursos formatius:**  
-  Cursals, webinars i manuals per a la formació contínua, amb especial atenció a recursos en català.
 
+
+<!--
 **Notes:**  
-- Recomana recursos específics (MOOCs, tutorials) que facilitin l'aprenentatge sense grans inversions.  
-- Explica com es pot començar a experimentar amb aquestes eines.
+- ChatGPT: https://www.youtube.com/playlist?list=PL6kQim6ljTJuDrH3yPIxfrbHRBm_o8kxB
+-->
+
+---
+# 🦎 **Salamadra** un model del BSC
+![width:600px center](https://huggingface.co/BSC-LT/salamandra-7b/resolve/main/images/corpus_languages_1.1.png)
+En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models de text](https://langtech-bsc.gitbook.io/alia-kit/modelos/modelos-de-texto). 
+
+---
+
+# ​🎬​ Enginyeria de Prompt
+
+**Què és un prompt?**
+Un prompt és el conjunt d'instruccions o text que donem a una IA per obtenir una resposta o generació concreta. Pot ser una pregunta, una descripció, una ordre o fins i tot un conjunt de criteris detallats.
+**Perquè és tant important?**
+Qualitat de la resposta, Control i personalització , Eficàcia i temps, Etica i seguretat.
+
+[Guia d'Enginyeria de Prompts](https://www.promptingguide.ai/ca)
+
+<!---
+Notes:
+🔹 Qualitat de la resposta → Un bon prompt guia la IA per donar respostes més precises i útils.
+🔹 Control i personalització → Permet afinar els resultats segons necessitats específiques.
+🔹 Eficàcia i temps → Evita respostes vagues i redueix la necessitat de repetir consultes.
+🔹 Ètica i seguretat → Un prompt ben formulat pot evitar biaixos i respostes problemàtiques.
+
+🛠 Exemple:
+Mala pràctica → "Explica'm la història de Catalunya."
+Bona pràctica → "Fes-me un resum en 5 punts clau de la història de Catalunya amb èmfasi en la seva evolució política."
+
+
+-->
 
 ---
 
