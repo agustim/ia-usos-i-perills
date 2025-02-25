@@ -1,6 +1,6 @@
 ---
 marp: true
-title: IA Usos i perills en una entiat de causa.
+title: IA Usos i perills a ÒC.
 author: Agusti Moll
 paginate: true
 theme: gaia
@@ -11,7 +11,7 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-# La IA com a Aliat Social?
+# 👥 IA com a Aliat Social?
 
 - **Què és la Intel·ligència Artificial?**  
 
@@ -99,7 +99,7 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 
 ---
 # 🦎 **Salamadra** un model del BSC
-![width:600px center](https://huggingface.co/BSC-LT/salamandra-7b/resolve/main/images/corpus_languages_1.1.png)
+![width:600px center](img/corpus_language_1.1.png)
 En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models de text](https://langtech-bsc.gitbook.io/alia-kit/modelos/modelos-de-texto). 
 
 ---
@@ -156,7 +156,7 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 # 🛡 Seguretat: Riscos en l’ús (II)
 
 ### Dependència Excessiva i Deshumanització
-- 📉 **Pèrdua de criteri humà***: Delegació excessiva de decisions crítiques a la IA.
+- 📉 **Pèrdua de criteri humà**: Delegació excessiva de decisions crítiques a la IA.
 - 🏥 **Impacte en sectors sensibles**: Errors en IA mèdica, judicial o financera poden tenir conseqüències greus.
 - 🤖 **Reducció de la creativitat i pensament crític**: Automatització excessiva que limita la intervenció humana.
 
@@ -189,11 +189,8 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 - 🤯 **Falsedats amb to convincent**: La IA pot generar informació incorrecta amb un estil que sembla fiable.
 - 📚 **Referències inventades**: Creació de cites acadèmiques, estudis o fets històrics inexistents.
 
-
-
 ---
-# Bones Pràctiques
-
+# ✅ Bones Pràctiques
 - **Polítiques internes i codi ètic:**  
   - Definir valors i principis clars per a l’ús de la IA.  
   - Exemples de codis ètics d'altres entitats o empreses.
@@ -201,7 +198,7 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
   - Auditoria regular dels sistemes d’IA.  
   - Protocols d’accés i control de dades.
 - **Formació contínua:**  
-  - Tallers interns i sessions de formació en seguretat informàtica i ètica de la IA.  
+  - Tallers, sessions en seguretat informàtica i ètica de la IA.  
   - Col·laboració amb experts externs.
 
 <!--
@@ -214,28 +211,13 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 ✔️ Aplicar auditories ètiques en el desenvolupament i ús d’IA.
 ✔️ Establir regulacions clares per a un ús responsable.
 -->
----
 
-# Integració Pràctica - Tallers, Casos d'Estudi i Debats
-
-- **Tallers pràctics:**  
-  - Sessions demostratives de les eines d’IA seleccionades.  
-  - Exercicis pràctics per identificar vulnerabilitats i aplicar protocols de seguretat.
-- **Anàlisi de casos reals:**  
-  - Presentació de casos d’èxit que han optimitzat processos.  
-  - Estudi de situacions de mal ús i debat sobre mesures de prevenció.
-- **Espais de debat i reflexió:**  
-  - Fomentar la participació del personal per expressar dubtes i proposar millores.  
-  - Debat obert sobre dilemes ètics i implicacions socials.
-
-**Notes:**  
-- Prepara exemples concrets relacionats amb la realitat de l'entitat.  
-- Anima la participació activa amb preguntes o dinàmiques en grup.
 
 ---
 
-# Conclusions i Propostes d'Acció
+# Conclusions i propostes d'Acció
 
+<!--
 - **Recapitulació:**  
   Repassa els conceptes claus, eines, riscos i bones pràctiques presentats.
 - **Línies d’acció immediates:**  
@@ -248,14 +230,16 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 **Notes:**  
 - Enfatitza que la integració de la IA és un procés continu i d'adaptació constant.  
 - Convida els assistents a aportar idees i comprometre's amb mesures de seguretat i ètica.
-
+-->
 ---
 
-# Preguntes i Debat Final
+# ⁉️ Preguntes i debat final
 
+<!-- 
 - Espai per a Q&A: Obrir un espai per respondre preguntes i aclarir dubtes.
 - Dinàmica de debat: Proposa un debat sobre casos pràctics o dilemes ètics.
 
 **Notes:**  
 - Anima als participants a compartir les seves experiències o inquietuds.  
 - Facilita un ambient de diàleg obert sobre com avançar de manera segura i responsable.
+-->
