@@ -26,7 +26,6 @@ img[alt~="center"] {
   - Lluita contra la desinformació
   - Seguretat digital
 
-
 <!--
 **Notes:**  
 - La Intel·ligència Artificial (IA) es refereix a sistemes informàtics capaços d'executar tasques que normalment requereixen intel·ligència humana, com ara el reconeixement de patrons, la presa de decisions o la generació de llenguatge. Des de les seves primeres investigacions als anys 50 fins als models actuals basats en xarxes neuronals, la IA ha evolucionat per convertir-se en una eina fonamental en múltiples sectors.
@@ -80,9 +79,9 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 
 # 🛠 Eines d'IA per a l'Entitat
 
-  - Plataformes conversacionals: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai/), [Deepseek](https://chat.deepseek.com/) poden ajudar en la redacció de textos, resum de documents i suport en la presa de decisions.
-  - Reconeixament de veu i imatge: [Whisper](https://github.com/openai/whisper) permet transcriure àudio a text amb gran precisió, [Otter.ia](https://otter.ai/) facilita la transcripció i resum de reunions. 
-  - Generació de continguts multimèdia: [Canva amb IA](https://www.canva.com/es_es/generador-imagenes-ia/) crear dissenys automàticament, [Descript](https://web.descript.com/) facilita l'edició de vídeo i àudio amb IA. 
+  - **Plataformes conversacionals**: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai/), [Deepseek](https://chat.deepseek.com/) poden ajudar en la redacció de textos, resum de documents i suport en la presa de decisions.
+  - **Reconeixament de veu i imatge**: [Whisper](https://github.com/openai/whisper) permet transcriure àudio a text amb gran precisió, [Otter.ia](https://otter.ai/) facilita la transcripció i resum de reunions. 
+  - **Generació de continguts multimèdia**: [Canva amb IA](https://www.canva.com/es_es/generador-imagenes-ia/) crear dissenys automàticament, [Descript](https://web.descript.com/) facilita l'edició de vídeo i àudio amb IA. 
 
 ---
 
@@ -128,26 +127,47 @@ Notes:
 
 # 🛠 Exemple enginyeria de prompt:
 
-Mala pràctica
+**Mala pràctica**
   *"Explica'm la història de Catalunya."*
 
-Bona pràctica:
+**Bona pràctica**
   *"Fes-me un resum en 5 punts clau de la història de Catalunya amb èmfasi en la seva evolució política."*
 
 
 ---
 
-# 🛡 Seguretat i Riscos en l’ús de la IA
+# 🛡 Seguretat: Riscos en l’ús de la IA (I)
+### Amenaces en la seguretat informàtica
+  - 🥷 **Ciberatacs**: Els atacants poden introducir dades malicioses en l'entrenament del model (*Data Poisoning*). O la generació de continguts, amb tècniques com els "deepfakes", amb l'objectius de manipular l'opinio pública (*Spoofing*)
+  - 🛠 **Sistemes vulnerables**: Algoritmes mal protegits o amb biaixos en les dades d'entrenament poden generar resultats esbiaixats o perjudicials.(*Biaixos en l'algoritmes*). Molt models funcionen com "caixes negres" on els porcessos interns son opacs (*Falta de transparència*)
 
-- **Amenaces de seguretat informàtica:**  
-  - Ciberatacs que podrien comprometre dades internes.  
-  - Vulnerabilitats dels sistemes d’IA.
-- **Riscos del mal ús de la IA:**  
-  - Manipulació de dades i difusió de desinformació.  
-  - Biaixos en els algorismes que poden portar a discriminació.
-- **Impacte en la privacitat:**  
-  - Gestió i protecció de dades sensibles.  
-  - Casos reals on la manca de seguretat ha tingut conseqüències negatives.
+<!--
+**Notes**
+  Exemples de:
+  - **Data Poisoing**: En sistemes de reconeixement facial s'han detectat casos on petites modificacions en les imatges permeten que persones no autoritzades siguin reconegudes com a legítimes.
+  - **Spoofing**: Febrer del 2024, a Hong Kong: un treballador d'una multinacional va pagar 25 milions de dòlars, tal com havia acordat en una reunió amb una altra empresa. Els assistents, però, eren deepfakes fets amb IA. Juny del 2023, als Estats Units: una mare va rebre una trucada. A l'altra banda del telèfon parlava la seva filla dient que l'havien segrestat [IA darrera del 40% de les ciberestafes](http://archive.today/qnsUs). Però no ho era, la seva veu l'havien generat amb IA. Els atacs utilitzant al IA han aumentat des del 2022 un 370%, i es calcula que  
+  - **Biaixos en l'algoritmes**
+  - **Falta de transparència** : Els models no oberts, po
+Aquests exemples ressalten la importància de desenvolupar i implementar sistemes d'IA amb mesures robustes de seguretat i ètica, per tal de minimitzar riscos i protegir tant les dades com els usuaris.
+
+-->
+
+---
+# 🛡 Seguretat: Riscos en l’ús (II)
+
+### Dependència Excessiva i Deshumanització
+- 📉 **Pèrdua de criteri humà***: Delegació excessiva de decisions crítiques a la IA.
+- 🏥 **Impacte en sectors sensibles**: Errors en IA mèdica, judicial o financera poden tenir conseqüències greus.
+- 🤖 **Reducció de la creativitat i pensament crític**: Automatització excessiva que limita la intervenció humana.
+
+---
+
+# 🛡 Seguretat: Riscos en l’ús (III)
+
+### Impacte en la privacitat
+- 📷 **Recollida massiva de dades**: IA que captura informació personal sense consentiment explícit.
+- 🏠 **Seguiment constant**: Riscos en sistemes de videovigilància i rastreig de dades.
+- 📡 **Identitat digital en perill**: Possibilitat de suplantació total de persones en entorns digitals.
 
 <!---
 **Notes:**  
@@ -155,7 +175,23 @@ Bona pràctica:
 - Reforça la necessitat d'una gestió proactiva dels riscos, tant tecnològics com ètics.
 -->
 ---
+# 🛡 Seguretat: Riscos en l’ús (IV)
 
+### Riscos en llengües minoritzades
+- 🗣️ **Infrarepresentació en els models**: Si una llengua no és prou present en els corpus d’entrenament, els models poden generar respostes incoherents o incorrectes.
+- 🏛️ **Pèrdua de diversitat lingüística**: Les llengües majoritàries en el corpus poden influir en la generació de text en llengües minoritzades, provocant errors gramaticals, lèxics o estructurals.
+
+---
+# 🛡 Seguretat: Riscos en l’ús (V)
+
+### Invencions i Al·lucinacions de la IA
+- 🌡**Temperatura mal ajustada**:  Un nivell de creativitat massa alt pot fer que la IA generi contingut menys fiable i més imaginatiu, augmentant el risc d’al·lucinacions.
+- 🤯 **Falsedats amb to convincent**: La IA pot generar informació incorrecta amb un estil que sembla fiable.
+- 📚 **Referències inventades**: Creació de cites acadèmiques, estudis o fets històrics inexistents.
+
+
+
+---
 # Bones Pràctiques
 
 - **Polítiques internes i codi ètic:**  
@@ -168,10 +204,16 @@ Bona pràctica:
   - Tallers interns i sessions de formació en seguretat informàtica i ètica de la IA.  
   - Col·laboració amb experts externs.
 
+<!--
 **Notes:**  
 - Proposa la creació d’un comitè intern per supervisar l’ús de la IA.  
 - Discutir la importància del manteniment constant i la revisió periòdica dels sistemes.
 
+📌 Com mitigar-ho?
+✔️ Exigir transparència en els models i bases de dades.
+✔️ Aplicar auditories ètiques en el desenvolupament i ús d’IA.
+✔️ Establir regulacions clares per a un ús responsable.
+-->
 ---
 
 # Integració Pràctica - Tallers, Casos d'Estudi i Debats
