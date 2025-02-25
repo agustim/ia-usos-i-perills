@@ -105,13 +105,14 @@ En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models
 
 ---
 
-# ​🎬​ Enginyeria de Prompt
+# ​🎬​ Enginyeria de Prompt 
+
 
 **Què és un prompt?**
 Un prompt és el conjunt d'instruccions o text que donem a una IA per obtenir una resposta o generació concreta. Pot ser una pregunta, una descripció, una ordre o fins i tot un conjunt de criteris detallats.
 **Perquè és tant important?**
 Qualitat de la resposta, Control i personalització , Eficàcia i temps, Etica i seguretat.
-
+**Recurs**
 [Guia d'Enginyeria de Prompts](https://www.promptingguide.ai/ca)
 
 <!---
@@ -121,16 +122,22 @@ Notes:
 🔹 Eficàcia i temps → Evita respostes vagues i redueix la necessitat de repetir consultes.
 🔹 Ètica i seguretat → Un prompt ben formulat pot evitar biaixos i respostes problemàtiques.
 
-🛠 Exemple:
-Mala pràctica → "Explica'm la història de Catalunya."
-Bona pràctica → "Fes-me un resum en 5 punts clau de la història de Catalunya amb èmfasi en la seva evolució política."
-
-
 -->
 
 ---
 
-# Aspectes de Seguretat i Riscos en l’Ús de la IA
+# 🛠 Exemple enginyeria de prompt:
+
+Mala pràctica
+  *"Explica'm la història de Catalunya."*
+
+Bona pràctica:
+  *"Fes-me un resum en 5 punts clau de la història de Catalunya amb èmfasi en la seva evolució política."*
+
+
+---
+
+# 🛡 Seguretat i Riscos en l’ús de la IA
 
 - **Amenaces de seguretat informàtica:**  
   - Ciberatacs que podrien comprometre dades internes.  
@@ -142,10 +149,11 @@ Bona pràctica → "Fes-me un resum en 5 punts clau de la història de Catalunya
   - Gestió i protecció de dades sensibles.  
   - Casos reals on la manca de seguretat ha tingut conseqüències negatives.
 
+<!---
 **Notes:**  
 - Il·lustra amb exemples pràctics el mal ús d'algoritmes en altres contextos.  
 - Reforça la necessitat d'una gestió proactiva dels riscos, tant tecnològics com ètics.
-
+-->
 ---
 
 # Bones Pràctiques
