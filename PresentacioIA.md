@@ -13,7 +13,7 @@ img[alt~="center"] {
 </style>
 # 👥 IA com a Aliat Social?
 
-- **Què és la Intel·ligència Artificial?**  
+- **Què és la intel·ligència artificial?**  
 
 - **Beneficis de la IA en el Tercer Sector i Projectes Socials**  
   - Optimització de processos interns
@@ -45,7 +45,7 @@ La IA pot jugar un paper clau en la defensa de drets socials i la promoció de l
 ---
 # 🔍 Conceptes
 
-**Què és la IA, l'aprenentatge automàtic i el deep learning**  
+**Què és la IA, l'aprenentatge automàtic i el *deep learning***  
   
 **🚀 Aplicacions pràctiques en l’entitat:**  
   - Automatització de tasques administratives
@@ -61,6 +61,8 @@ Cercles concentrics.
 **Aprenentatge automàtic (Machine Learning - ML)**: És una subcategoria de la IA on els sistemes aprenen patrons a partir de dades i fan prediccions sense ser explícitament programats. Un exemple pràctic podria ser un sistema que categoritza correus electrònics com a "importants" o "brossa" en funció dels missatges que l’usuari obre més sovint.
 
 **Deep Learning**: És una branca de l’aprenentatge automàtic que utilitza xarxes neuronals artificials per processar grans volums de dades. Per exemple, el reconeixement facial en xarxes socials o la traducció automàtica en temps real.
+
+** Exemple: 
 
 Aplicacions pràctiques en una entitat de causa
 Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitzar recursos en diferents àmbits:
@@ -80,22 +82,29 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 # 🛠 Eines d'IA per a l'Entitat
 
   - **Plataformes conversacionals**: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai/), [Deepseek](https://chat.deepseek.com/) poden ajudar en la redacció de textos, resum de documents i suport en la presa de decisions.
-  - **Reconeixament de veu i imatge**: [Whisper](https://github.com/openai/whisper) permet transcriure àudio a text amb gran precisió, [Otter.ia](https://otter.ai/) facilita la transcripció i resum de reunions. 
+  - **Reconeixement de veu i imatge**: [Whisper](https://github.com/openai/whisper) permet transcriure àudio a text amb gran precisió, [Otter.ia](https://otter.ai/) facilita la transcripció i resum de reunions. 
   - **Generació de continguts multimèdia**: [Canva amb IA](https://www.canva.com/es_es/generador-imagenes-ia/) crear dissenys automàticament, [Descript](https://web.descript.com/) facilita l'edició de vídeo i àudio amb IA. 
 
 ---
 
 # 🧰 Recursos d'IA per a l'Entitat
 - **Recursos formatius:**
-  Cursals, webinars i manuals per a la formació contínua, amb especial atenció a recursos en català.
+  Cursos, webinars i manuals <sup>[1](https://www.youtube.com/playlist?list=PL6kQim6ljTJuDrH3yPIxfrbHRBm_o8kxB)</sup> per a la formació contínua, amb especial atenció a recursos en català.
 - **Entorns de desenvolupament:**  
   Introducció a Python, biblioteques com TensorFlow o PyTorch i plataformes com Google Colab.
 
 
 <!--
-**Notes:**  
-- ChatGPT: https://www.youtube.com/playlist?list=PL6kQim6ljTJuDrH3yPIxfrbHRBm_o8kxB
+ Nosaltres ja fem servir la IA per analitzar XXSS i determinar si els missatges que fan refencia a nosaltres son positius o negatius i quina relevancia tenen.
 -->
+---
+# 🎯 Casos pràctic d'altres entitats
+- **Creu roja** sembla que utilitza IA per optimitzar la distribució d’ajuda humanitària en zones afectades per desastres naturals.[1](https://www2.cruzroja.es/ca/web/ahora/-/inteligencia-artificial-humanitaria-humanista) 
+- **Amnistia Internacional** sembla que fa servir IA per detectar discursos d’odi i desinformació a les xarxes socials.
+- **Banc dels Aliments** podrien estar provat models predictius per optimitzar la recollida i distribució d’aliments segons la demanda.
+
+
+
 
 ---
 # 🦎 **Salamadra** un model del BSC
@@ -191,13 +200,13 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 
 ---
 # ✅ Bones Pràctiques
-- **Polítiques internes i codi ètic:**  
+- 🏛 **Polítiques internes i codi ètic:**  
   - Definir valors i principis clars per a l’ús de la IA.  
-  - Exemples de codis ètics d'altres entitats o empreses.
-- **Protocols de seguretat:**  
+  - Exemples de codis ètics d'[altres entitats](https://andorra-digital.com/images/pdf/recursos/codi%20etic%20IA.pdf), empreses.
+- 🛡️ **Protocols de seguretat:**  
   - Auditoria regular dels sistemes d’IA.  
   - Protocols d’accés i control de dades.
-- **Formació contínua:**  
+- 🎓 **Formació contínua:**  
   - Tallers, sessions en seguretat informàtica i ètica de la IA.  
   - Col·laboració amb experts externs.
 
@@ -212,10 +221,46 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 ✔️ Establir regulacions clares per a un ús responsable.
 -->
 
+---
+# 🏛 Polítiques internes i codi ètic
+
+Basat en [Catalonia.AI](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/) i marc regulatori de [la IA del parlament europeu](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) hauriem de:
+- **Integrar els principis ètic fonamentals**: Respecte per l'autonomia humana, prevenció de danys, equitat i explicabilitat.
+- **Definir els requisits per a una IA fiable**: Supervisió humana, robustesa tècnica i seguretat, gestió de dades i privacitat, transparència, no discriminació, impacte social-ambiental i rendició de comptes.
+
+
+<!--
+**Notes**
+Catalonia.AI => Estratègia d'Intel·ligència Artificial a Catalunya
+### Principis ètics fonamentals
+- Respecte per l’autonomia humana – Els sistemes d'IA han de potenciar les capacitats humanes sense coaccionar, enganyar o manipular les persones.
+- Prevenció de danys – La IA ha de garantir la seguretat física i mental de les persones i evitar usos malintencionats.
+-Equitat – S’ha de garantir una distribució justa dels beneficis de la IA i evitar biaixos discriminatoris.
+- Explicabilitat – Els sistemes d'IA han de ser transparents i les seves decisions han de poder ser explicades a les persones afectades​Estrategia_IA_Catalunya….
+###Requisits per a una IA fiable
+- Supervisió humana: La IA ha de complementar la presa de decisions humana i assegurar mecanismes de supervisió.
+- Robustesa tècnica i seguretat: Els sistemes han de ser segurs, fiables i protegits contra vulnerabilitats.
+- Gestió de dades i privacitat: Protecció de la informació de les persones i garanties de qualitat i integritat de les dades.
+- Transparència: Cal assegurar la traçabilitat de les dades i la identificació clara dels sistemes d'IA.
+- Diversitat i no discriminació: Disseny inclusiu i eliminació de biaixos discriminatoris.
+- Impacte social i ambiental: La IA ha de ser sostenible i fomentar el benestar social.
+- Rendició de comptes: Han d’existir mecanismes per garantir la responsabilitat dels desenvolupadors i usuaris de la IA.
+
+-->
 
 ---
 
-# Conclusions i propostes d'Acció
+# 📄 Problemes d'IA i el català
+
+Com ja hem anat veient i atès que el seu corpus té molt poc català **No entenen bé el català** i **Barrejar-lo amb altres idiomes**.
+
+*Exemple*
+``` 
+> Bon dia, com estàs?
+"Estoy bien."
+``` 
+
+
 
 <!--
 - **Recapitulació:**  
