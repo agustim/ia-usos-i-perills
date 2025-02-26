@@ -98,10 +98,10 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
  Nosaltres ja fem servir la IA per analitzar XXSS i determinar si els missatges que fan refencia a nosaltres son positius o negatius i quina relevancia tenen.
 -->
 ---
-# 🎯 Casos pràctic d'altres entitats
+# 🎯 Casos pràctics d'altres entitats
 - **Creu roja** sembla que utilitza IA per optimitzar la distribució d’ajuda humanitària en zones afectades per desastres naturals.[1](https://www2.cruzroja.es/ca/web/ahora/-/inteligencia-artificial-humanitaria-humanista) 
 - **Amnistia Internacional** sembla que fa servir IA per detectar discursos d’odi i desinformació a les xarxes socials.
-- **Banc dels Aliments** podrien estar provat models predictius per optimitzar la recollida i distribució d’aliments segons la demanda.
+- **Banc dels Aliments** podrien estar provant models predictius per optimitzar la recollida i distribució d’aliments segons la demanda.
 
 
 
@@ -118,8 +118,8 @@ En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models
 
 **Què és un prompt?**
 Un prompt és el conjunt d'instruccions o text que donem a una IA per obtenir una resposta o generació concreta. Pot ser una pregunta, una descripció, una ordre o fins i tot un conjunt de criteris detallats.
-**Perquè és tant important?**
-Qualitat de la resposta, Control i personalització , Eficàcia i temps, Etica i seguretat.
+**Per què és tan important?**
+Qualitat de la resposta, Control i personalització, Eficàcia i temps, Ètica i seguretat.
 **Recurs**
 [Guia d'Enginyeria de Prompts](https://www.promptingguide.ai/ca)
 
@@ -147,8 +147,8 @@ Notes:
 
 # 🛡 Seguretat: Riscos en l’ús de la IA (I)
 ### Amenaces en la seguretat informàtica
-  - 🥷 **Ciberatacs**: Els atacants poden introducir dades malicioses en l'entrenament del model (*Data Poisoning*). O la generació de continguts, amb tècniques com els "deepfakes", amb l'objectius de manipular l'opinio pública (*Spoofing*)
-  - 🛠 **Sistemes vulnerables**: Algoritmes mal protegits o amb biaixos en les dades d'entrenament poden generar resultats esbiaixats o perjudicials.(*Biaixos en l'algoritmes*). Molt models funcionen com "caixes negres" on els porcessos interns son opacs (*Falta de transparència*)
+  - 🥷 **Ciberatacs**: Els atacants poden introduir dades malicioses en l'entrenament del model (*Data Poisoning*). O la generació de continguts, amb tècniques com els "deepfakes", amb l'objectiu de manipular l'opinió pública (*Spoofing*)
+  - 🛠 **Sistemes vulnerables**: Algoritmes mal protegits o amb biaixos en les dades d'entrenament poden generar resultats esbiaixats o perjudicials.(*Biaixos en els algoritmes*). Molts models funcionen com "caixes negres" on els processos interns són opacs (*Falta de transparència*)
 
 <!--
 **Notes**
@@ -224,8 +224,8 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 ---
 # 🏛 Polítiques internes i codi ètic
 
-Basat en [Catalonia.AI](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/) i marc regulatori de [la IA del parlament europeu](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) hauriem de:
-- **Integrar els principis ètic fonamentals**: Respecte per l'autonomia humana, prevenció de danys, equitat i explicabilitat.
+Basat en [Catalonia.AI](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/) i marc regulador de [la IA del Parlament Europeu](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) hauríem de:
+- **Integrar els principis ètics fonamentals**: Respecte per l'autonomia humana, prevenció de danys, equitat i transparents.
 - **Definir els requisits per a una IA fiable**: Supervisió humana, robustesa tècnica i seguretat, gestió de dades i privacitat, transparència, no discriminació, impacte social-ambiental i rendició de comptes.
 
 
@@ -252,7 +252,7 @@ Catalonia.AI => Estratègia d'Intel·ligència Artificial a Catalunya
 
 # 📄 Problemes d'IA i el català
 
-Com ja hem anat veient i atès que el seu corpus té molt poc català **No entenen bé el català** i **Barrejar-lo amb altres idiomes**.
+Com ja hem anat veient i atès que el seu corpus té molt poc català. La IA pot: **No entendre bé el català** i **Barrejar-lo amb altres idiomes**.
 
 *Exemple*
 ``` 
