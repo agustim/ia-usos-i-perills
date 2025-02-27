@@ -10,25 +10,26 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
 }
+mark {
+  display: block;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+}
+
 </style>
 # 👥 IA com a Aliat Social?
-
 - **Què és la intel·ligència artificial?**  
-
 - **Beneficis de la IA en el Tercer Sector i Projectes Socials**  
-  - Optimització de processos interns
-  - Facilitació de la comunicació
-  - Suport a la presa de decisions
-  - Accessibilitat
-
-- **Context de la causa catalana:**
-  - Difusió de la llengua
-  - Lluita contra la desinformació
-  - Seguretat digital
+  - Optimització de processos interns.
+  - Facilitació de la comunicació.
+  - Suport a la presa de decisions.
+  - Accessibilitat.
+- **Context de la causa catalana:** Pot ajudar en la *Difusió de la llengua* i en la *Lluita contra la desinformació*.
 
 <!--
 **Notes:**  
-- La Intel·ligència Artificial (IA) es refereix a sistemes informàtics capaços d'executar tasques que normalment requereixen intel·ligència humana, com ara el reconeixement de patrons, la presa de decisions o la generació de llenguatge. Des de les seves primeres investigacions als anys 50 fins als models actuals basats en xarxes neuronals, la IA ha evolucionat per convertir-se en una eina fonamental en múltiples sectors.
+- La intel·ligència artificial (IA) es refereix a sistemes informàtics capaços d'executar tasques que normalment requereixen intel·ligència humana, com ara el reconeixement de patrons, la presa de decisions o la generació de llenguatge. Des de les seves primeres investigacions als anys cinquanta fins als models actuals basats en xarxes neuronals, la IA ha evolucionat per convertir-se en una eina fonamental en múltiples sectors.
 - Beneficis de la IA en el Tercer Sector i Projectes Socials
   - Optimització de processos interns: Automatització de tasques administratives com la gestió de bases de dades o el seguiment de projectes.
   - Facilitació de la comunicació: Creació de resums automàtics, assistència en la redacció de materials de sensibilització o gestió de xarxes socials.
@@ -37,16 +38,16 @@ img[alt~="center"] {
 
 - Context de la causa catalana i la tecnologia com a eina estratègica
 La IA pot jugar un paper clau en la defensa de drets socials i la promoció de la llengua i cultura catalana:
-
   - Preservació i difusió de la llengua: Sistemes de traducció automàtica i correcció en català.
   - Lluita contra la desinformació: Anàlisi de notícies falses i identificació d'informació manipulada.
-  - Seguretat digital: Eines de protecció de dades i comunicació xifrada per garantir la privacitat de les entitats.
 -->
 ---
 # 🔍 Conceptes
 
-**Què és la IA, l'aprenentatge automàtic i el *deep learning***  
-  
+**Què és la IA, l'aprenentatge automàtic i el *deep learning***
+
+<mark>IA > Aprenentatge automàtic > Deep Learnin</mark>
+ 
 **🚀 Aplicacions pràctiques en l’entitat:**  
   - Automatització de tasques administratives
   - Suport en la creació de continguts
@@ -103,14 +104,15 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 - **Amnistia Internacional** sembla que fa servir IA per detectar discursos d’odi i desinformació a les xarxes socials.
 - **Banc dels Aliments** podrien estar provant models predictius per optimitzar la recollida i distribució d’aliments segons la demanda.
 
-
-
-
 ---
-# 🦎 **Salamadra** un model del BSC
+# 🦎 [Salamandra](https://huggingface.co/collections/BSC-LT/salamandra-66fc171485944df79469043a) un model del BSC
 ![width:600px center](img/corpus_language_1.1.png)
-En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models de text](https://langtech-bsc.gitbook.io/alia-kit/modelos/modelos-de-texto). 
 
+<!-- 
+**Notes** 
+El corpus: és el conjunt estructurat de dades per entrenar i millorar els sistems intel·ligents.
+En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models de text](https://langtech-bsc.gitbook.io/alia-kit/modelos/modelos-de-texto). 
+-->
 ---
 
 # ​🎬​ Enginyeria de Prompt 
