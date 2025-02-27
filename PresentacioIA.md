@@ -1,6 +1,6 @@
 ---
 marp: true
-title: IA Usos i perills a Òmnium Cultural
+title: IA usos i perills a Òmnium Cultural
 author: Agusti Moll
 paginate: true
 footer: ©️ Transformació Digital - Òmnium Cultural
@@ -17,9 +17,21 @@ mark {
   font-size: 110%;
   font-weight: bold;
 }
+h1 {
+  display: block;
+  padding-top: 200px;
+  text-align: center;
+}
+h2 {
+  font-size: 170%;
+}
+
 </style>
 
-# 👥 IA com a Aliat Social?
+# IA usos i perills a Òmnium Cultural
+
+---
+## 👥 IA com a Aliat Social?
 - **Què és la intel·ligència artificial?**  
 - **Beneficis de la IA en el Tercer Sector i Projectes Socials**  
   - Optimització de processos interns.
@@ -43,11 +55,11 @@ La IA pot jugar un paper clau en la defensa de drets socials i la promoció de l
   - Lluita contra la desinformació: Anàlisi de notícies falses i identificació d'informació manipulada.
 -->
 ---
-# 🔍 Conceptes
+## 🔍 Conceptes
 
 **Què és la IA, l'aprenentatge automàtic i el *deep learning***
 
-<mark>IA > Aprenentatge automàtic > Deep Learnin</mark>
+<mark>IA > Aprenentatge automàtic > Deep Learning</mark>
  
 **🚀 Aplicacions pràctiques en l’entitat:**  
   - Automatització de tasques administratives
@@ -81,15 +93,15 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 -->
 ---
 
-# 🛠 Eines d'IA per a l'Entitat
+## 🛠 Eines d'IA per a l'Entitat
 
-  - **Plataformes conversacionals**: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai/), [Deepseek](https://chat.deepseek.com/) poden ajudar en la redacció de textos, resum de documents i suport en la presa de decisions.
+  - **Plataformes conversacionals**: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai/), [Deepseek](https://chat.deepseek.com/), [Gemini](https://gemini.google.com/) poden ajudar en la redacció de textos, resum de documents i suport en la presa de decisions.
   - **Reconeixement de veu i imatge**: [Whisper](https://github.com/openai/whisper) permet transcriure àudio a text amb gran precisió, [Otter.ia](https://otter.ai/) facilita la transcripció i resum de reunions. 
   - **Generació de continguts multimèdia**: [Canva amb IA](https://www.canva.com/es_es/generador-imagenes-ia/) crear dissenys automàticament, [Descript](https://web.descript.com/) facilita l'edició de vídeo i àudio amb IA. 
 
 ---
 
-# 🧰 Recursos d'IA per a l'Entitat
+## 🧰 Recursos d'IA per a l'Entitat
 - **Recursos formatius:**
   Cursos, webinars i manuals <sup>[1](https://www.youtube.com/playlist?list=PL6kQim6ljTJuDrH3yPIxfrbHRBm_o8kxB)</sup> per a la formació contínua, amb especial atenció a recursos en català.
 - **Entorns de desenvolupament:**  
@@ -100,13 +112,13 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
  Nosaltres ja fem servir la IA per analitzar XXSS i determinar si els missatges que fan refencia a nosaltres son positius o negatius i quina relevancia tenen.
 -->
 ---
-# 🎯 Casos pràctics d'altres entitats
+## 🎯 Casos pràctics d'altres entitats
 - **Creu roja** sembla que utilitza IA per optimitzar la distribució d’ajuda humanitària en zones afectades per desastres naturals.[1](https://www2.cruzroja.es/ca/web/ahora/-/inteligencia-artificial-humanitaria-humanista) 
 - **Amnistia Internacional** sembla que fa servir IA per detectar discursos d’odi i desinformació a les xarxes socials.
 - **Banc dels Aliments** podrien estar provant models predictius per optimitzar la recollida i distribució d’aliments segons la demanda.
 
 ---
-# 🦎 [Salamandra](https://huggingface.co/collections/BSC-LT/salamandra-66fc171485944df79469043a) un model del BSC
+## 🦎 [Salamandra](https://huggingface.co/collections/BSC-LT/salamandra-66fc171485944df79469043a) un model del BSC
 ![width:600px center](img/corpus_language_1.1.png)
 
 <!-- 
@@ -116,7 +128,7 @@ En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models
 -->
 ---
 
-# ​🎬​ Enginyeria de Prompt 
+## ​🎬​ Enginyeria de Prompt 
 
 
 **Què és un prompt?**
@@ -137,7 +149,7 @@ Notes:
 
 ---
 
-# 🛠 Exemple enginyeria de prompt:
+## 🛠 Exemple enginyeria de prompt:
 
 **Mala pràctica**
   *"Explica'm la història de Catalunya."*
@@ -148,10 +160,10 @@ Notes:
 
 ---
 
-# 🛡 Seguretat: Riscos en l’ús de la IA (I)
+## 🛡 Seguretat: Riscos en l’ús de la IA (I)
 ### Amenaces en la seguretat informàtica
   - 🥷 **Ciberatacs**: Els atacants poden introduir dades malicioses en l'entrenament del model (*Data Poisoning*). O la generació de continguts, amb tècniques com els "deepfakes", amb l'objectiu de manipular l'opinió pública (*Spoofing*)
-  - 🛠 **Sistemes vulnerables**: Algoritmes mal protegits o amb biaixos en les dades d'entrenament poden generar resultats esbiaixats o perjudicials.(*Biaixos en els algoritmes*). Molts models funcionen com "caixes negres" on els processos interns són opacs (*Falta de transparència*)
+  - 🛠 **Sistemes vulnerables**: Algoritmes mal protegits o amb biaixos en les dades d'entrenament poden generar resultats perjudicials.(*Biaixos en els algoritmes*). Molts models funcionen com "caixes negres" on els processos interns són opacs (*Falta de transparència*)
 
 <!--
 **Notes**
@@ -165,7 +177,7 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 -->
 
 ---
-# 🛡 Seguretat: Riscos en l’ús (II)
+## 🛡 Seguretat: Riscos en l’ús (II)
 
 ### Dependència Excessiva i Deshumanització
 - 📉 **Pèrdua de criteri humà**: Delegació excessiva de decisions crítiques a la IA.
@@ -174,7 +186,7 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 
 ---
 
-# 🛡 Seguretat: Riscos en l’ús (III)
+## 🛡 Seguretat: Riscos en l’ús (III)
 
 ### Impacte en la privacitat
 - 📷 **Recollida massiva de dades**: IA que captura informació personal sense consentiment explícit.
@@ -187,14 +199,14 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 - Reforça la necessitat d'una gestió proactiva dels riscos, tant tecnològics com ètics.
 -->
 ---
-# 🛡 Seguretat: Riscos en l’ús (IV)
+## 🛡 Seguretat: Riscos en l’ús (IV)
 
 ### Riscos en llengües minoritzades
 - 🗣️ **Infrarepresentació en els models**: Si una llengua no és prou present en els corpus d’entrenament, els models poden generar respostes incoherents o incorrectes.
 - 🏛️ **Pèrdua de diversitat lingüística**: Les llengües majoritàries en el corpus poden influir en la generació de text en llengües minoritzades, provocant errors gramaticals, lèxics o estructurals.
 
 ---
-# 🛡 Seguretat: Riscos en l’ús (V)
+## 🛡 Seguretat: Riscos en l’ús (V)
 
 ### Invencions i Al·lucinacions de la IA
 - 🌡**Temperatura mal ajustada**:  Un nivell de creativitat massa alt pot fer que la IA generi contingut menys fiable i més imaginatiu, augmentant el risc d’al·lucinacions.
@@ -202,16 +214,26 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 - 📚 **Referències inventades**: Creació de cites acadèmiques, estudis o fets històrics inexistents.
 
 ---
-# ✅ Bones Pràctiques
+## ✅ Bones Pràctiques (I)
 - 🏛 **Polítiques internes i codi ètic:**  
   - Definir valors i principis clars per a l’ús de la IA.  
   - Exemples de codis ètics d'[altres entitats](https://andorra-digital.com/images/pdf/recursos/codi%20etic%20IA.pdf), empreses.
 - 🛡️ **Protocols de seguretat:**  
   - Auditoria regular dels sistemes d’IA.  
   - Protocols d’accés i control de dades.
+
+
+
+---
+## ✅ Bones Pràctiques (II)
 - 🎓 **Formació contínua:**  
   - Tallers, sessions en seguretat informàtica i ètica de la IA.  
   - Col·laboració amb experts externs.
+
+- 🏛 **Comitè intern de supervisió**
+  - Crear un comitè intern per supervisar l’ús de la IA
+  - Garantir-ne el compliment ètic i legal.
+  - Fer una revisió periòdica dels sistemes, protocols i acords adquirits.
 
 <!--
 **Notes:**  
@@ -225,7 +247,7 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 -->
 
 ---
-# 🏛 Polítiques internes i codi ètic
+## 🏛 Polítiques internes i codi ètic
 
 Basat en [Catalonia.AI](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/) i marc regulador de [la IA del Parlament Europeu](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) hauríem de:
 - **Integrar els principis ètics fonamentals**: Respecte per l'autonomia humana, prevenció de danys, equitat i transparents.
@@ -253,7 +275,7 @@ Catalonia.AI => Estratègia d'Intel·ligència Artificial a Catalunya
 
 ---
 
-# 📄 Problemes d'IA i el català
+## 📄 Problemes d'IA i el català
 
 Com ja hem anat veient i atès que el seu corpus té molt poc català. La IA pot: **No entendre bé el català** i **Barrejar-lo amb altres idiomes**.
 
@@ -281,7 +303,7 @@ Com ja hem anat veient i atès que el seu corpus té molt poc català. La IA pot
 -->
 ---
 
-# ⁉️ Preguntes i debat final
+## ⁉️ Preguntes i debat final
 
 <!-- 
 - Espai per a Q&A: Obrir un espai per respondre preguntes i aclarir dubtes.
