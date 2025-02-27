@@ -1,8 +1,9 @@
 ---
 marp: true
-title: IA Usos i perills a ÒC.
+title: IA Usos i perills a Òmnium Cultural
 author: Agusti Moll
 paginate: true
+footer: ©️ Transformació Digital - Òmnium Cultural
 theme: gaia
 ---
 <style>
@@ -16,8 +17,8 @@ mark {
   font-size: 110%;
   font-weight: bold;
 }
-
 </style>
+
 # 👥 IA com a Aliat Social?
 - **Què és la intel·ligència artificial?**  
 - **Beneficis de la IA en el Tercer Sector i Projectes Socials**  
