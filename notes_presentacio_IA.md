@@ -60,6 +60,8 @@ Presentació del tema i l'objectiu de la sessió. Explicar que la IA està trans
 ## Diapositiva 7: Salamandra (BSC)
 Model de IA desenvolupat al Barcelona Supercomputing Center per fomentar l'IA en llengua catalana.
 
+Aquí mostrem el corups de Salamandra on podem veure que només el 1,97% son texts en català, quan aquest model està respaldat per el Barcelona Super Computador.
+
 ---
 ## Diapositiva 8: Enginyeria de Prompt
 - **Què és un Prompt?** Una instrucció que es dona a una IA per obtenir un resultat precís.
