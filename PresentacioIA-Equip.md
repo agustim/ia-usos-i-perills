@@ -2,35 +2,20 @@
 marp: true
 title: IA usos i perills a Òmnium Cultural
 author: Agusti Moll
-paginate: true
-footer: ©️ Transformació Digital - Òmnium Cultural
-theme: gaia
+paginate: false
+footer: Transformació Digital - Òmnium Cultural
+theme: omnium
 ---
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-mark {
-  display: block;
-  text-align: center;
-  font-size: 110%;
-  font-weight: bold;
-}
-h1 {
-  display: block;
-  padding-top: 200px;
-  text-align: center;
-}
-h2 {
-  font-size: 170%;
-}
-
-</style>
-
+<!--
+class: first-page 
+-->
 # IA usos i perills a Òmnium Cultural
-
+## Transformació Digital - Òmnium Cultural
 ---
+<!--
+paginate: true
+class: content-page
+-->
 ## 👥 IA com a Aliat Social?
 - **Què és la intel·ligència artificial?**  
 - **Beneficis de la IA en el Tercer Sector i Projectes Socials**  
@@ -64,7 +49,6 @@ La IA pot jugar un paper clau en la defensa de drets socials i la promoció de l
 **🚀 Aplicacions pràctiques en l’entitat:**  
   - Automatització de tasques administratives
   - Suport en la creació de continguts
-
 <!--   
 **Notes:**  
 Concepte:
@@ -91,6 +75,16 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 - Exemples: IA que analitza el sentiment de comentaris a xarxes socials per ajustar el to de la comunicació.
 
 -->
+
+---
+## 📚 Glosari
+- **IA**: Intel·ligència Artificial.
+- **Machine Learning**: Aprenentatge automàtic.
+- **Deep Learning**: Aprenentatge profund.
+- **Model d'IA**: Programa que ha estat entrenat per a acomplir tasques específiques.
+- **Corpus**: Conjunt de dades textuals utilitzat per entrenar models d'IA.
+- **Prompt**: Text o instrucció que s'envia a un model d'IA per obtenir una resposta.
+
 ---
 
 ## 🛠 Eines d'IA per a l'Entitat
@@ -117,16 +111,6 @@ Les entitats socials poden aprofitar la IA per millorar l'eficiència i optimitz
 - **Banc dels Aliments** podrien estar provant models predictius per optimitzar la recollida i distribució d’aliments segons la demanda.
 
 ---
-## 🦎 [Salamandra](https://huggingface.co/collections/BSC-LT/salamandra-66fc171485944df79469043a) un model del BSC
-![width:600px center](img/corpus_language_1.1.png)
-
-<!-- 
-**Notes** 
-El corpus: és el conjunt estructurat de dades per entrenar i millorar els sistems intel·ligents.
-En el marc del projecte [ALIA](https://alia.gob.es/), s'han publicat uns [models de text](https://langtech-bsc.gitbook.io/alia-kit/modelos/modelos-de-texto). 
--->
----
-
 ## ​🎬​ Enginyeria de Prompt 
 
 
@@ -213,64 +197,7 @@ Aquests exemples ressalten la importància de desenvolupar i implementar sisteme
 - 📚 **Referències inventades**: Creació de cites acadèmiques, estudis o fets històrics inexistents.
 
 ---
-## ✅ Bones Pràctiques (I)
-- 🏛 **Polítiques internes i codi ètic:**  
-  - Definir valors i principis clars per a l’ús de la IA.  
-  - Exemples de codis ètics d'[altres entitats](https://andorra-digital.com/images/pdf/recursos/codi%20etic%20IA.pdf), empreses.
-- 🛡️ **Protocols de seguretat:**  
-  - Auditoria regular dels sistemes d’IA.  
-  - Protocols d’accés i control de dades.
 
----
-## ✅ Bones Pràctiques (II)
-- 🎓 **Formació contínua:**  
-  - Tallers, sessions en seguretat informàtica i ètica de la IA.  
-  - Col·laboració amb experts externs.
-
-- 🏛 **Comitè intern de supervisió**
-  - Crear un comitè intern per supervisar l’ús de la IA
-  - Garantir-ne el compliment ètic i legal.
-  - Fer una revisió periòdica dels sistemes, protocols i acords adquirits.
-
-<!--
-**Notes:**  
-- Proposa la creació d’un comitè intern per supervisar l’ús de la IA.  
-- Discutir la importància del manteniment constant i la revisió periòdica dels sistemes.
-
-📌 Com mitigar-ho?
-✔️ Exigir transparència en els models i bases de dades.
-✔️ Aplicar auditories ètiques en el desenvolupament i ús d’IA.
-✔️ Establir regulacions clares per a un ús responsable.
--->
-
----
-## 🏛 Polítiques internes i codi ètic
-
-Basat en [Catalonia.AI](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/) i marc regulador de [la IA del Parlament Europeu](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) hauríem de:
-- **Integrar els principis ètics fonamentals**: Respecte per l'autonomia humana, prevenció de danys, equitat i transparents.
-- **Definir els requisits per a una IA fiable**: Supervisió humana, robustesa tècnica i seguretat, gestió de dades i privacitat, transparència, no discriminació, impacte social-ambiental i rendició de comptes.
-
-
-<!--
-**Notes**
-Catalonia.AI => Estratègia d'Intel·ligència Artificial a Catalunya
-### Principis ètics fonamentals
-- Respecte per l’autonomia humana – Els sistemes d'IA han de potenciar les capacitats humanes sense coaccionar, enganyar o manipular les persones.
-- Prevenció de danys – La IA ha de garantir la seguretat física i mental de les persones i evitar usos malintencionats.
--Equitat – S’ha de garantir una distribució justa dels beneficis de la IA i evitar biaixos discriminatoris.
-- Explicabilitat – Els sistemes d'IA han de ser transparents i les seves decisions han de poder ser explicades a les persones afectades​Estrategia_IA_Catalunya….
-###Requisits per a una IA fiable
-- Supervisió humana: La IA ha de complementar la presa de decisions humana i assegurar mecanismes de supervisió.
-- Robustesa tècnica i seguretat: Els sistemes han de ser segurs, fiables i protegits contra vulnerabilitats.
-- Gestió de dades i privacitat: Protecció de la informació de les persones i garanties de qualitat i integritat de les dades.
-- Transparència: Cal assegurar la traçabilitat de les dades i la identificació clara dels sistemes d'IA.
-- Diversitat i no discriminació: Disseny inclusiu i eliminació de biaixos discriminatoris.
-- Impacte social i ambiental: La IA ha de ser sostenible i fomentar el benestar social.
-- Rendició de comptes: Han d’existir mecanismes per garantir la responsabilitat dels desenvolupadors i usuaris de la IA.
-
--->
-
----
 
 ## 📄 Problemes d'IA i el català
 
@@ -300,7 +227,7 @@ Com ja hem anat veient i atès que el seu corpus té molt poc català. La IA pot
 -->
 ---
 
-## ⁉️ Preguntes i debat final
+## ⁉️ Preguntes
 
 <!-- 
 - Espai per a Q&A: Obrir un espai per respondre preguntes i aclarir dubtes.
