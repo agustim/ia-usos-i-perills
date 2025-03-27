@@ -92,7 +92,7 @@ section[data-style="left"] footer {
   text-transform:uppercase;
 }
 section[data-style="left"] footer::after {
-  content: url('images/logo35.svg');
+  content: url('themes/images/logo35.svg');
   font-family: var(--font-body);
   position: absolute;
   right: 20px;
@@ -134,7 +134,7 @@ section[id="1"] h2 {
 }
 
 section[id="1"]::before {
-  content: url('images/logo.svg');
+  content: url('themes/images/logo.svg');
   display: block;
   text-align: center;
   max-width: 100px;
@@ -145,7 +145,7 @@ section[id="1"]::before {
 
 /* ALL PAGES */
 section:not([id="1"]):not([data-style="left"]) footer::after {
-  content: url('images/logo45black.svg');
+  content: url('themes/images/logo45black.svg');
   position: absolute;
   display: block;
   right: 50px;

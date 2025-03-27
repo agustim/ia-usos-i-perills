@@ -1,5 +1,6 @@
 {
     "markdown.marp.themes": [
-        "./theme.css"
+        "./theme.css",
+        "./themes/theme-omnium.css"
     ]
 }
