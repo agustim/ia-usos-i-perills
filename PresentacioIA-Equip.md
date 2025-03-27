@@ -6,6 +6,7 @@ paginate: true
 _paginate: false
 footer: Transformació Digital - Òmnium Cultural
 theme: omnium
+style: left
 ---
 # IA usos i perills a Òmnium Cultural
 ## Transformació Digital - Òmnium Cultural
