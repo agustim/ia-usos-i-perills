@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "start": "npx @marp-team/marp-cli@latest PresentacioIA.md --theme-set './theme.css' --preview",
-        "pdf": "npx @marp-team/marp-cli@latest PresentacioIA.md --pdf --theme-set './theme.css' --allow-local-files",
-        "html": "npx @marp-team/marp-cli@latest PresentacioIA.md --html  --theme-set './theme.css' --allow-local-files"
+        "start": "npx @marp-team/marp-cli@latest PresentacioIA-Equip.md --theme-set './theme.css' --preview",
+        "pdf": "npx @marp-team/marp-cli@latest PresentacioIA-Equip.md --pdf --theme-set './theme.css' --allow-local-files",
+        "html": "npx @marp-team/marp-cli@latest PresentacioIA-Equip.md --html  --theme-set './theme.css' --allow-local-files"
     }
 }
