@@ -4,7 +4,7 @@ title: IA usos i perills a Òmnium Cultural
 author: Agusti Moll
 paginate: true
 _paginate: false
-footer: Transformació Digital - Òmnium Cultural
+footer: Transformació Digital
 theme: omnium
 style: left
 ---
