@@ -1,7 +1,0 @@
-{
-    "scripts": {
-        "start": "npx @marp-team/marp-cli@latest PresentacioIA-Equip.md --preview",
-        "pdf": "npx @marp-team/marp-cli@latest PresentacioIA-Equip.md --pdf",
-        "html": "npx @marp-team/marp-cli@latest PresentacioIA-Equip.md --html"
-    }
-}
