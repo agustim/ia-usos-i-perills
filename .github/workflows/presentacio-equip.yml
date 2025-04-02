@@ -10,6 +10,8 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v3
 
+            - name: Create build directory
+              run: mkdir -p build
 
             - name: Slides in HTML
               uses: docker://marpteam/marp-cli:v1.7.0
