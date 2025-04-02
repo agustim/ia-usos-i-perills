@@ -23,6 +23,9 @@ jobs:
             - name: Copy slides to build directory
               run: cp PresentacioIA-Equip.html build/
 
+            - name: Copy images to build directory
+              run: cp -r images build/
+
             - name: Deploy to GitHub Pages
               uses: peaceiris/actions-gh-pages@v4
               with:
